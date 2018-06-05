@@ -10,8 +10,11 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  /*background: url('../../savaCAD2.png');*/
+  background: url(../../mushroombg2.png);
   background-color: #384059;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .reveal {
