@@ -7,7 +7,7 @@
 		<title>Mycelium Bricks</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="css/theme/shrooms.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -27,17 +27,15 @@
                 
                 <!-- Title Page -->
                 <section>
-                    <img src="images/lsbu_logo.jpg" width="700" height="300" >
-                    <h1>Mycelium Bricks</h1>
-                    <h2></h2>
+                    <!--< img src="images/lsbu_logo.jpg" width="700" height="300" >-->
+                    <h1>Myco Farm</h1>
+                    <h3>J.A. Graves, S. Mitchell<br />&amp; S. Otasevic</h3>
                 </section>
 
                 <!-- Introduction -->
 				<section>
                     <section>
                         <h1>Introduction</h1>
-                    </section>
-                    <section>
                         <p class="fragment fade-up">More info here</p>
                         <p class="fragment fade-up">Even more info</p>
                     </section>
@@ -45,9 +43,7 @@
 
                 <!-- Background -->
                 <section>
-                    <section>
                         <h1>Background</h1>
-                    </section>
                 </section>
 
                 <!--  -->
@@ -66,6 +62,15 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+                progress: true,
+                center: true,
+
+                //width: 1024,
+                //height: 768,
+
+                theme: Reveal.getQueryHash().theme,
+                transition: Reveal.getQueryHash(). transition || 'zoom', 
+
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
